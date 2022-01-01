@@ -41,5 +41,5 @@ jobs:
           platforms: linux/386,linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64,linux/ppc64le,linux/s390x
           push: true
           tags: |
-            akyakya/efb-v2:latest
-            akyakya/efb-v2:${{ steps.Tags.outputs.dtTag }}
+            1687219868/efb-v2:latest
+            1687291868/efb-v2:${{ steps.Tags.outputs.dtTag }}
